@@ -1,0 +1,12 @@
+[package]
+name = "sport_ui"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+sport_core = { path = "../sport_core" }
+sport_core_db = { path = "../sport_core_db" }
+core_ui = { path = "../core_ui" }
+log = "0.4"
+tui = "0.19"
+crossterm = "0.25"

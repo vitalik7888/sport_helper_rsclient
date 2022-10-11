@@ -1,0 +1,17 @@
+[package]
+name = "sport_core"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+sport_core_db = { path = "../sport_core_db" }
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+thiserror = "1.0"
+confy = "0.5.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1.57"
+crossterm = "0.25"

@@ -1,0 +1,13 @@
+[package]
+name = "sport_helper_client"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+sport_core = { path = "../sport_core" }
+core_ui = { path = "../core_ui" }
+sport_ui = { path = "../sport_ui" }
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+crossterm = "0.25"

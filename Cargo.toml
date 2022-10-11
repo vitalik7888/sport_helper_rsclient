@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "sport_core",
+    "sport_core_db",
+    "core_ui",
+    "sport_ui",
+    "sport_app",
+]
